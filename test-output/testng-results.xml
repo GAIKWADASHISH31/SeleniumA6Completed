@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-29T12:20:49 IST" name="Default suite" finished-at="2024-07-29T12:20:51 IST" duration-ms="1934">
+    <groups>
+    </groups>
+    <test started-at="2024-07-29T12:20:49 IST" name="Default test" finished-at="2024-07-29T12:20:51 IST" duration-ms="1934">
+      <class name="ExtentReport.SkipTestCases">
+        <test-method signature="createAccount()[pri:1, instance:ExtentReport.SkipTestCases@28dcca0c]" started-at="2024-07-29T12:20:50 IST" name="createAccount" finished-at="2024-07-29T12:20:51 IST" duration-ms="1393" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method ExtentReport.SkipTestCases.createAccount() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method ExtentReport.SkipTestCases.createAccount() didn't finish within the time-out 1000
+at java.base@17.0.11/java.lang.ClassLoader.defineClass0(Native Method)
+at java.base@17.0.11/java.lang.System$2.defineClass(System.java:2311)
+at java.base@17.0.11/java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439)
+at java.base@17.0.11/java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420)
+at java.base@17.0.11/java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127)
+at java.base@17.0.11/java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407)
+at java.base@17.0.11/java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315)
+at java.base@17.0.11/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228)
+at java.base@17.0.11/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341)
+at java.base@17.0.11/java.lang.invoke.LambdaForm$DMH/0x00000001001c2000.invokeStatic(LambdaForm$DMH)
+at java.base@17.0.11/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+at java.base@17.0.11/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134)
+at java.base@17.0.11/java.lang.invoke.CallSite.makeSite(CallSite.java:315)
+at java.base@17.0.11/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281)
+at java.base@17.0.11/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271)
+at app//org.openqa.selenium.chromium.ChromiumDriver.<clinit>(ChromiumDriver.java:82)
+at app//ExtentReport.SkipTestCases.createAccount(SkipTestCases.java:15)
+at java.base@17.0.11/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.11/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.11/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.11/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@17.0.11/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.11/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="deleteAccount()[pri:0, instance:ExtentReport.SkipTestCases@28dcca0c]" started-at="2024-07-29T12:20:51 IST" name="deleteAccount" finished-at="2024-07-29T12:20:51 IST" depends-on-methods="ExtentReport.SkipTestCases.createAccount" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExtentReport.SkipTestCases.deleteAccount() on instance ExtentReport.SkipTestCases@28dcca0c depends on not successfully finished methods 
+[ExtentReport.SkipTestCases.createAccount() on instance ExtentReport.SkipTestCases@28dcca0c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExtentReport.SkipTestCases.deleteAccount() on instance ExtentReport.SkipTestCases@28dcca0c depends on not successfully finished methods 
+[ExtentReport.SkipTestCases.createAccount() on instance ExtentReport.SkipTestCases@28dcca0c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+      </class> <!-- ExtentReport.SkipTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
